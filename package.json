@@ -1,0 +1,35 @@
+{
+  "name": "aws-serverless-nx",
+  "private": true,
+  "scripts": {
+    "test": "nx test",
+    "build": "nx build",
+    "dev": "nx serve"
+  },
+  "dependencies": {
+    "@aws-sdk/client-cognito-identity": "^3.470.0",
+    "@aws-sdk/client-eventbridge": "^3.470.0",
+    "@aws-sdk/client-sns": "^3.470.0",
+    "@aws-sdk/client-sqs": "^3.470.0",
+    "@types/aws-lambda": "^8.10.146",
+    "aws-cdk-lib": "2.110.1",
+    "constructs": "10.3.0",
+    "install": "^0.13.0",
+    "sst": "^2.36.1",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@nx/js": "17.2.7",
+    "@nx/workspace": "17.2.7",
+    "@types/node": "^20.10.4",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
+    "eslint": "^8.55.0",
+    "nx": "17.2.7",
+    "typescript": "^5.3.3",
+    "vitest": "^1.0.4"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}

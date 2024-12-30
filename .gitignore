@@ -1,0 +1,87 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+dist
+tmp
+/out-tsc
+storybook-static
+apps/veco-bookmarking/public/pdfjsexpress
+
+# dependencies
+node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# misc
+/.sass-cache
+/connect.lock
+coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Next.js
+.next
+.nx
+
+# SST
+.sst
+.open-next
+cdk.context.json
+
+# ENV
+.env
+.env.*
+!.env.example
+!.env.local.encrypted
+!.env.sandbox.encrypted
+!.env.dev.encrypted
+!.env.stg.encrypted
+!.env.prd.encrypted
+
+# session manager
+session-manager-plugin.pkg
+
+#sentry
+**/.sentryclirc
+
+#playwright
+
+**/test-results/
+**/playwright-report/
+**/playwright/.cache/
+**/lighthouse-report/
+**/playwright/.auth
+
+**/public/sw.js
+**/public/workbox-*.js
+**/public/worker-*.js
+**/public/sw.js.map
+**/public/workbox-*.js.map
+**/public/worker-*.js.map
+.nx/cache/*
+
+.build
+
+
+vite.config.mts.*
